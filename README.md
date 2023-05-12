@@ -1,4 +1,4 @@
-# Part 1: Sentence-level Aspect Based Sentiment Analysis
+# Sentence-level Aspect Based Sentiment Analysis
 
 The core idea for this part is to predict product categories and polarities from given text inputs. One SVM classifier predicts categories, while the other classifier predicts polarities based on the one-hot encoding of categories combined with text feature vectors.
 
@@ -24,7 +24,7 @@ By comparing the deviation with a threshold, if the deviation is below the thres
 
 The design is rational as it leverages SVM's core benefits, implementing techniques like one-hot encoding and grid search for performance enhancement. Combining text and category vectors and using probability thresholds provides higher recognition for polarity prediction. Additionally, the neutral prediction strategy showcases the system's logical foundation and adaptability.
 
-# Part 2: Text-level Aspect-Based Sentiment Analysis
+# Text-level Aspect-Based Sentiment Analysis
 For Part 2, a similar approach to Part 1 is employed, with a few notable differences. The goal here is to analyze sentiment per aspect in the texts, while also identifying conflicts where both positive and negative sentiment coexist for a particular category.
 
 ### Dataset Processing
