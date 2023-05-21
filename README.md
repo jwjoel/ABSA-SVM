@@ -1,11 +1,8 @@
-# ABSA-SVM
+## Sentence-level Aspect Based Sentiment Analysis
 
-[![Fork](https://img.shields.io/github/forks/jwjoel/ABSA-SVM.svg)](https://github.com/jwjoel/ABSA-SVM/fork)
 [![Issues](https://img.shields.io/github/issues/jwjoel/ABSA-SVM.svg)](https://github.com/jwjoel/ABSA-SVM/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/jwjoel/ABSA-SVM.svg)](https://github.com/jwjoel/ABSA-SVM/pulls)
 [![License](https://img.shields.io/github/license/jwjoel/ABSA-SVM.svg)](https://github.com/jwjoel/ABSA-SVM/blob/main/LICENSE)
-
-## Sentence-level Aspect Based Sentiment Analysis
 
 The core idea of this project is to predict product categories and polarities from given text inputs. It utilizes two SVM classifiers: one predicts categories, and the other predicts polarities based on the one-hot encoding of categories combined with text feature vectors.
 
